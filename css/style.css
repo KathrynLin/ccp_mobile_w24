@@ -465,10 +465,7 @@ footer {
     img[src$=".gif"]{
       display: none;
     }
-    .skip a{
-        -webkit-transition: none; /* sets to default setting */
-        transition: none;        /* sets to default setting */
-       }
+
 }
 
 
