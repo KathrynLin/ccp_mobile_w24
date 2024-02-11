@@ -74,20 +74,20 @@ nav .active a {
 
 
 /* Media query for mobile devices */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
     nav ul {
-        grid-template-columns: 1fr; /* Stack the menu items vertically */
-        height: auto; /* Adjust height as needed */
+        grid-template-columns: 1fr;
+        height: auto; 
     }
 
     nav ul li {
-        text-align: center; /* Center align on mobile */
-        width: 100%; /* Full width of the container */
+        text-align: center; 
+        width: 100%; 
     }
 
     nav ul li a {
-        padding: 20px 16px; /* Increase padding for larger touch area */
-        font-size: 1.3rem; /* Increase font size for better readability */
+        padding: 20px 16px; 
+        font-size: 1.3rem; 
     }
 }
 
