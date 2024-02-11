@@ -51,7 +51,7 @@ nav ul li{
 }
 
 nav ul li a{
-    display: inline-block;
+    display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -71,6 +71,26 @@ nav .active a {
     text-decoration: underline;
     font-style: italic;
 }
+
+
+/* Media query for mobile devices */
+@media screen and (max-width: 800px) {
+    nav ul {
+        grid-template-columns: 1fr; /* Stack the menu items vertically */
+        height: auto; /* Adjust height as needed */
+    }
+
+    nav ul li {
+        text-align: center; /* Center align on mobile */
+        width: 100%; /* Full width of the container */
+    }
+
+    nav ul li a {
+        padding: 20px 16px; /* Increase padding for larger touch area */
+        font-size: 1.3rem; /* Increase font size for better readability */
+    }
+}
+
 
 /* Main Content */
 
@@ -450,7 +470,5 @@ footer {
         transition: none;        /* sets to default setting */
        }
 }
-
-@media screen and (max-width: 768px) {
 
 
